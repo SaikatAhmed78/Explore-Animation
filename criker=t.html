@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket height</title>
+    <style>
+        .field{
+            border: 2px solid steelblue;
+        }
+        .bat{
+            transition: transform 1s;
+            height: 500px;
+            margin-left: 50px;
+        }
+        .ball{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: crimson;
+            position: relative;
+        }
+        .field:hover .bat{
+            transform: rotate(65deg);
+        }
+        .field:hover .ball{
+            transform: rotate(50deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img src="images/pngtree-pattern-cricket-bat-clipart-ball-sports-png-image_6024969.jpg" alt="" class="bat">
+    </div>
+    <div class="ball"></div>
+</body>
+</html>
